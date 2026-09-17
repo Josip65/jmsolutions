@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: Josip65/jmsolutions
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com      # za Netlify Identity auth proxy
 
 # Mediji (slike) se spremaju u /images/uploads
 media_folder: "images/uploads"
