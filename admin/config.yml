@@ -1,0 +1,87 @@
+backend:
+  name: github
+  repo: Josip65/jmsolutions
+  branch: main
+  base_url: https://api.netlify.com      # za Netlify Identity auth proxy
+
+# Mediji (slike) se spremaju u /images/uploads
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# Lokalni backend (za testiranje na localhostu bez GitHub prijave)
+local_backend: true
+
+collections:
+  - name: "posts"
+    label: "Članci (Novosti)"
+    label_singular: "Članak"
+    description: "Dodaj, uredi ili obriši članke. Sva tri jezika se unose u istom obrascu."
+    delete: true
+    editor:
+      preview: false
+    # Sve članke držimo u jednoj JSON datoteci — admin upravlja popisom.
+    files:
+      - file: "blog/posts.json"
+        name: "posts"
+        label: "Popis članaka"
+        fields:
+          - label: "Članci"
+            name: "posts"
+            widget: "list"
+            summary: "{{title_hr}} — {{date}}"
+            fields:
+              - { label: "ID (URL)", name: "id", widget: "string", hint: "Kratak identifikator bez razmaka, npr. mig-mag-zavarivanje. Koristi se u URL-u." }
+              - { label: "Datum", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+              - label: "Kategorija"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Zavarivanje", value: "welding" }
+                  - { label: "Elektrika", value: "electrical" }
+                  - { label: "Sigurnost", value: "safety" }
+                  - { label: "Vijesti", value: "news" }
+                default: "news"
+              - { label: "Naslov (HR)", name: "title_hr", widget: "string" }
+              - { label: "Naslov (EN)", name: "title_en", widget: "string", required: false }
+              - { label: "Naslov (DE)", name: "title_de", widget: "string", required: false }
+              - { label: "Sažetak (HR)", name: "excerpt_hr", widget: "text" }
+              - { label: "Sažetak (EN)", name: "excerpt_en", widget: "text", required: false }
+              - { label: "Sažetak (DE)", name: "excerpt_de", widget: "text", required: false }
+              - { label: "Tekst (HR)", name: "body_hr", widget: "markdown", required: false }
+              - { label: "Tekst (EN)", name: "body_en", widget: "markdown", required: false }
+              - { label: "Tekst (DE)", name: "body_de", widget: "markdown", required: false }
+
+  - name: "references"
+    label: "Reference (Projekti)"
+    label_singular: "Referenca"
+    description: "Dodaj, uredi ili obriši reference. Možeš uploadati i sliku projekta."
+    delete: true
+    editor:
+      preview: false
+    files:
+      - file: "references.json"
+        name: "references"
+        label: "Popis referenci"
+        fields:
+          - label: "Reference"
+            name: "references"
+            widget: "list"
+            summary: "{{title_hr}}"
+            fields:
+              - { label: "ID (URL)", name: "id", widget: "string", hint: "Kratak identifikator bez razmaka, npr. proizvodna-hala-zagreb." }
+              - label: "Kategorija"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Industrija", value: "industrial" }
+                  - { label: "Kućanstvo", value: "residential" }
+                  - { label: "Infrastruktura", value: "infrastructure" }
+                  - { label: "Održavanje", value: "maintenance" }
+                default: "industrial"
+              - { label: "Slika", name: "image", widget: "image", required: false, hint: "Ako ne staviš sliku, koristi se placeholder." }
+              - { label: "Naziv (HR)", name: "title_hr", widget: "string" }
+              - { label: "Naziv (EN)", name: "title_en", widget: "string", required: false }
+              - { label: "Naziv (DE)", name: "title_de", widget: "string", required: false }
+              - { label: "Opis (HR)", name: "desc_hr", widget: "text" }
+              - { label: "Opis (EN)", name: "desc_en", widget: "text", required: false }
+              - { label: "Opis (DE)", name: "desc_de", widget: "text", required: false }

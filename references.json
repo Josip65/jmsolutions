@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "proizvodna-hala-zagreb",
+      "category": "industrial",
+      "title_hr": "Proizvodna hala — Zagreb",
+      "title_en": "Production hall — Zagreb",
+      "title_de": "Produktionshalle — Zagreb",
+      "desc_hr": "Čelična konstrukcija 1200 m², zavarivanje nosivih stupova i krovnih rešetki.",
+      "desc_en": "Steel structure 1200 m², welding of load-bearing columns and roof trusses.",
+      "desc_de": "Stahlkonstruktion 1200 m², Schweißen von tragenden Säulen und Dachbindern.",
+      "image": ""
+    },
+    {
+      "id": "javna-rasvjeta-karlovac",
+      "category": "infrastructure",
+      "title_hr": "Javna rasvjeta — Karlovac",
+      "title_en": "Public lighting — Karlovac",
+      "title_de": "Straßenbeleuchtung — Karlovac",
+      "desc_hr": "Rekonstrukcija rasvjete 4 km, nove razvodne table i kabelski razvod.",
+      "desc_en": "Reconstruction of 4 km of lighting, new distribution boards and cable routing.",
+      "desc_de": "Rekonstruktion von 4 km Beleuchtung, neue Verteiler und Kabelverlegung.",
+      "image": ""
+    },
+    {
+      "id": "obiteljska-kuca-samobor",
+      "category": "residential",
+      "title_hr": "Obiteljska kuća — Samobor",
+      "title_en": "Family house — Samobor",
+      "title_de": "Einfamilienhaus — Samobor",
+      "desc_hr": "Kompletna elektroinstalacija i stubišna rasvjeta, pametno upravljanje.",
+      "desc_en": "Complete electrical installation and stair lighting, smart control.",
+      "desc_de": "Komplette Elektroinstallation und Treppenbeleuchtung, smarte Steuerung.",
+      "image": ""
+    },
+    {
+      "id": "cjevovod-za-paru-sisak",
+      "category": "industrial",
+      "title_hr": "Cjevovod za paru — Sisak",
+      "title_en": "Steam pipeline — Sisak",
+      "title_de": "Dampfleitung — Sisak",
+      "desc_hr": "TIG zavarivanje nehrđajućeg cjevovoda DN150, ispitivanje tlakom.",
+      "desc_en": "TIG welding of stainless steel pipeline DN150, pressure testing.",
+      "desc_de": "WIG-Schweißen einer Edelstahlrohrleitung DN150, Druckprüfung.",
+      "image": ""
+    },
+    {
+      "id": "servis-instalacija-varazdin",
+      "category": "maintenance",
+      "title_hr": "Servis instalacija — Varaždin",
+      "title_en": "Installation service — Varaždin",
+      "title_de": "Installationsservice — Varaždin",
+      "desc_hr": "Godišnji pregled i certifikacija razvodnih ormara za proizvodni pogon.",
+      "desc_en": "Annual inspection and certification of distribution boards for production facility.",
+      "desc_de": "Jährliche Inspektion und Zertifizierung von Schaltschränken für die Produktion.",
+      "image": ""
+    },
+    {
+      "id": "ograda-i-stepeniste-zagreb",
+      "category": "residential",
+      "title_hr": "Ograda i stepenište — Zagreb",
+      "title_en": "Fence and staircase — Zagreb",
+      "title_de": "Zaun und Treppe — Zagreb",
+      "desc_hr": "Zavarivanje inox ograde i vanjskog stepeništa, brušenje i pasivizacija.",
+      "desc_en": "Welding of stainless steel fence and external staircase, grinding and passivation.",
+      "desc_de": "Schweißen von Edelstahlzaun und Außentreppe, Schleifen und Passivierung.",
+      "image": ""
+    }
+  ]
+}

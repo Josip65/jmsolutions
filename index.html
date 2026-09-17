@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JM Solutions — Zavarivanje i Elektrika</title>
+  <meta name="description" content="JM Solutions — zavarivanje i elektroinstalacije. MIG/MAG, TIG, elektroinstalacije, industrijski radovi i održavanje.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180x180.png">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="images/logo.jpg" class="brand-logo" alt="JM Solutions">
+        <span><span data-i18n="brand.name">JM SOLUTIONS</span><small data-i18n="brand.tag">ZAVARIVANJE • ELEKTROINSTALACIJE</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Naslovnica</a></li>
+        <li><a href="about.html" data-i18n="nav.about">O nama</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Usluge</a></li>
+        <li><a href="references.html" data-i18n="nav.references">Reference</a></li>
+        <li><a href="blog.html" data-i18n="nav.blog">Novosti</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button data-lang="hr">HR</button>
+          <button data-lang="en">EN</button>
+          <button data-lang="de">DE</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1><span data-i18n="hero.title1">Precizno zavarivanje i</span><br><span class="volt" data-i18n="hero.title2">kompletno elektroinstalaterske usluge</span></h1>
+        <p class="lead" data-i18n="hero.lead">Vaš pouzdani partner za zavarivanje i elektroinstalacije. Certificirani stručnjaci, kvalitetno rješenje i usluga na koju se možete osloniti.</p>
+        <div class="hero-cta">
+          <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta1">Zatražite ponudu</a>
+          <a href="services.html" class="btn btn-ghost" data-i18n="hero.cta2">Naše usluge</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><div class="num" data-i18n="hero.stat1.num">2025</div><div class="lbl" data-i18n="hero.stat1.lbl">Godina osnivanja</div></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+              <stop offset="0%" stop-color="#2a3a4a" stop-opacity=".6"/>
+              <stop offset="100%" stop-color="#0f1419" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="spark" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#fff1d6" stop-opacity=".95"/>
+              <stop offset="40%" stop-color="#ff9a3c" stop-opacity=".7"/>
+              <stop offset="100%" stop-color="#ff7a18" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="torso" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#3a4858"/>
+              <stop offset="100%" stop-color="#1e2936"/>
+            </linearGradient>
+            <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="4"/>
+            </filter>
+          </defs>
+          <rect width="400" height="300" fill="#0f1419"/>
+          <rect width="400" height="300" fill="url(#glow)"/>
+
+          <!-- subtle grid -->
+          <g stroke="#1a2630" stroke-width="1">
+            <line x1="0" y1="100" x2="400" y2="100"/>
+            <line x1="0" y1="200" x2="400" y2="200"/>
+            <line x1="100" y1="0" x2="100" y2="300"/>
+            <line x1="300" y1="0" x2="300" y2="300"/>
+          </g>
+
+          <!-- electric cable (sine wave) -->
+          <path d="M60 180 Q90 150,120 180 T180 180 T240 180" fill="none" stroke="#2da8e8" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+          <path d="M60 210 Q90 180,120 210 T180 210 T240 210" fill="none" stroke="#1a7fb8" stroke-width="2.5" stroke-linecap="round" opacity=".5"/>
+
+          <!-- welding torch handle -->
+          <g transform="translate(240, 80) rotate(15)">
+            <rect x="0" y="0" width="28" height="110" rx="8" fill="url(#torso)" stroke="#3a5266" stroke-width="2"/>
+            <rect x="6" y="110" width="16" height="40" rx="4" fill="#ff7a18"/>
+            <rect x="4" y="150" width="20" height="10" rx="2" fill="#3a5266"/>
+          </g>
+
+          <!-- main spark -->
+          <g transform="translate(280, 210)">
+            <circle r="55" fill="url(#spark)" filter="url(#blur)" opacity=".7"/>
+            <circle r="30" fill="url(#spark)" opacity=".9"/>
+            <circle r="4" fill="#fff"/>
+            <g stroke="#ffb347" stroke-width="2" stroke-linecap="round" fill="none">
+              <path d="M0 0 l-18 -32"/>
+              <path d="M0 0 l20 -28"/>
+              <path d="M0 0 l-6 30"/>
+              <path d="M0 0 l22 18"/>
+              <path d="M0 0 l-28 6"/>
+            </g>
+          </g>
+
+          <!-- small floating sparks -->
+          <g fill="#ffb347">
+            <circle cx="200" cy="120" r="2" opacity=".6"/>
+            <circle cx="330" cy="160" r="1.5" opacity=".5"/>
+            <circle cx="150" cy="90" r="2" opacity=".4"/>
+          </g>
+
+          <!-- zavarena spojna točka -->
+          <circle cx="160" cy="230" r="8" fill="#ff7a18" opacity=".6" filter="url(#blur)"/>
+          <circle cx="160" cy="230" r="3" fill="#ffe9c2"/>
+        </svg>
+        <div class="badge" data-i18n="hero.badge">Stručno i kvalitetno izvedeno</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Usluge ===== -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" data-i18n="services.eyebrow">Što radimo</div>
+        <h2 data-i18n="services.title">Usluge po mjeri za industriju i kućanstva</h2>
+        <p data-i18n="services.sub">Od sitnih popravaka do velikih industrijskih projekata — pokrivamo cijeli spektar zavarivanja i elektroinstalacija.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="icon weld">🔥</div>
+          <h3 data-i18n="services.weld.title">Zavarivanje</h3>
+          <p data-i18n="services.weld.desc">MIG/MAG, TIG i relno zavarivanje čelika, aluminija i nehrđajućeg materijala. Mobilna usluga na terenu.</p>
+          <a class="more" href="services.html" data-i18n="services.weld.more">Saznajte više →</a>
+        </div>
+        <div class="card">
+          <div class="icon elec">⚡</div>
+          <h3 data-i18n="services.elec.title">Elektroinstalacije</h3>
+          <p data-i18n="services.elec.desc">Kompletno elektroinstalaterske radove: razvodne table, instalacije, javna rasvjeta i održavanje.</p>
+          <a class="more" href="services.html" data-i18n="services.elec.more">Saznajte više →</a>
+        </div>
+        <div class="card">
+          <div class="icon weld">🏭</div>
+          <h3 data-i18n="services.industrial.title">Industrijski radovi</h3>
+          <p data-i18n="services.industrial.desc">Zavarivanje konstrukcija, cjevovoda i rezervoara za industrijske objekte i proizvodne hale.</p>
+          <a class="more" href="services.html" data-i18n="services.industrial.more">Saznajte više →</a>
+        </div>
+        <div class="card">
+          <div class="icon elec">🛠️</div>
+          <h3 data-i18n="services.maintenance.title">Održavanje i servisi</h3>
+          <p data-i18n="services.maintenance.desc">Redovito održavanje elektroinstalacija i zavarenih konstrukcija. Hitne intervencije 24/7.</p>
+          <a class="more" href="services.html" data-i18n="services.maintenance.more">Saznajte više →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== O nama (split) ===== -->
+  <section style="background:var(--bg-2)">
+    <div class="container split">
+      <div class="panel-img">
+        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:100%;height:100%">
+          <rect width="400" height="300" fill="#161c24"/>
+          <g stroke="#2a333f" stroke-width="2" fill="none">
+            <rect x="60" y="60" width="280" height="180" rx="8"/>
+            <line x1="60" y1="120" x2="340" y2="120"/>
+            <line x1="200" y1="60" x2="200" y2="240"/>
+          </g>
+          <g fill="#1e2630">
+            <rect x="80" y="80" width="100" height="30" rx="4"/>
+            <rect x="220" y="80" width="100" height="30" rx="4"/>
+            <rect x="80" y="140" width="100" height="80" rx="4"/>
+            <rect x="220" y="140" width="100" height="80" rx="4"/>
+          </g>
+          <circle cx="200" cy="150" r="40" fill="url(#spark2)" opacity=".6"/>
+          <defs><radialGradient id="spark2"><stop offset="0" stop-color="#ff7a18" stop-opacity=".7"/><stop offset="1" stop-color="#ff7a18" stop-opacity="0"/></radialGradient></defs>
+        </svg>
+      </div>
+      <div>
+        <div class="eyebrow" style="color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem" data-i18n="about.eyebrow">Tko smo</div>
+        <h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);margin:10px 0 14px;font-weight:800" data-i18n="about.title">Obiteljska firma s tradicijom i modernim pristupom</h2>
+        <p style="color:var(--text-dim);font-size:1.05rem" data-i18n="about.lead">JM Solutions d.o.o. osnovana je 2025. godine. Specijalizirana je za zavarivanje i elektroinstalacije, a kombinira stručno iskustvo tima, certificirane postupke i pouzdanu uslugu.</p>
+        <ul class="checklist">
+          <li data-i18n="about.b1">Certificirani i iskusni zavarivači</li>
+          <li data-i18n="about.b2">Licencirani elektroinstalateri</li>
+          <li data-i18n="about.b3">Mobilna usluga na cijelom području</li>
+          <li data-i18n="about.b4">Nosive čelične konstrukcije i konstrukcijski radovi</li>
+        </ul>
+        <a href="about.html" class="btn btn-ghost mt-30" data-i18n="about.cta">Upoznajte naš tim</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Reference (preview) ===== -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" data-i18n="ref.eyebrow">Reference</div>
+        <h2 data-i18n="ref.title">Projekti na koje smo ponosni</h2>
+        <p data-i18n="ref.sub">Pogledajte izbor realiziranih projekata iz industrije, graditeljstva i privatnog sektora.</p>
+      </div>
+      <div class="grid grid-3" id="refs-preview"></div>
+      <div class="center mt-30"><a href="references.html" class="btn btn-ghost" data-i18n="ref.title">Sve reference</a></div>
+    </div>
+  </section>
+
+  <!-- ===== Najnoviji članci ===== -->
+  <section style="background:var(--bg-2)">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" data-i18n="blog.eyebrow">Novosti</div>
+        <h2 data-i18n="blog.title">Savjeti, vijesti i zanimljivosti</h2>
+        <p data-i18n="blog.sub">Pratite naše članke o zavarivanju, elektrici i sigurnosti na radu.</p>
+      </div>
+      <div class="grid grid-3" id="blog-grid"></div>
+      <div class="center mt-30"><a href="blog.html" class="btn btn-ghost" data-i18n="blog.title">Svi članci</a></div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section>
+    <div class="container">
+      <div class="cta-strip">
+        <h2 data-i18n="cta.title">Imate projekt u planu? Javite se.</h2>
+        <p data-i18n="cta.sub">Besplatna procjena i ponuda unutar 24 sata. Pozovite ili pošaljite upit.</p>
+        <div class="hero-cta" style="justify-content:center">
+          <a href="contact.html" class="btn btn-primary" data-i18n="cta.btn1">Zatražite ponudu</a>
+          <a href="tel:+385976732933" class="btn btn-electric" data-i18n="cta.btn2">Pozovite nas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="about">
+          <div class="brand" style="margin-bottom:14px"><img src="images/logo.jpg" class="brand-logo" alt="JM Solutions"><span data-i18n="brand.name">JM SOLUTIONS</span></div>
+          <p data-i18n="footer.about">JM Solutions d.o.o.\nZavarivanje i elektroinstalacije\nMalica 65, 35212 Zadubravlje\nOIB: 22390410169\nIBAN: HR3523400091111340239</p>
+        </div>
+        <div>
+          <h5 data-i18n="footer.nav">Navigacija</h5>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Naslovnica</a></li>
+            <li><a href="about.html" data-i18n="nav.about">O nama</a></li>
+            <li><a href="services.html" data-i18n="nav.services">Usluge</a></li>
+            <li><a href="references.html" data-i18n="nav.references">Reference</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 data-i18n="footer.services">Usluge</h5>
+          <ul>
+            <li><a href="services.html" data-i18n="services.weld.title">Zavarivanje</a></li>
+            <li><a href="services.html" data-i18n="services.elec.title">Elektroinstalacije</a></li>
+            <li><a href="services.html" data-i18n="services.industrial.title">Industrijski radovi</a></li>
+            <li><a href="services.html" data-i18n="services.maintenance.title">Održavanje</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 data-i18n="footer.contact">Kontakt</h5>
+          <ul>
+            <li><span data-i18n="contact.addr.val">Malica 65, 35212 Zadubravlje</span></li>
+            <li><a href="tel:+385976732933" data-i18n="contact.phone.val">+385 97 6732 933</a></li>
+            <li><a href="mailto:Info@jmsolutions.hr" data-i18n="contact.email.val">Info@jmsolutions.hr</a></li>
+            <li><a href="blog.html" data-i18n="nav.blog">Novosti</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="year">2026</span> ECO SPORT LINE. <span data-i18n="footer.rights">Sva prava pridržana.</span></span>
+        <span><span data-i18n="footer.made">Napravljeno s</span> ⚡</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/references.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

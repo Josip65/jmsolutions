@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "mig-mag-zavarivanje",
+      "date": "2026-08-20",
+      "category": "welding",
+      "title_hr": "MIG/MAG zavarivanje: kada i zašto ga biramo",
+      "title_en": "MIG/MAG welding: when and why we choose it",
+      "title_de": "MIG/MAG-Schweißen: wann und warum wir es wählen",
+      "excerpt_hr": "MIG/MAG postupak je među najbržim i najsvestranijim metodama zavarivanja. U ovom članku objašnjavamo prednosti i tipične primjene.",
+      "excerpt_en": "The MIG/MAG process is among the fastest and most versatile welding methods. In this article we explain its advantages and typical applications.",
+      "excerpt_de": "Das MIG/MAG-Verfahren gehört zu den schnellsten und vielseitigsten Schweißmethoden. In diesem Artikel erläutern wir die Vorteile und typischen Anwendungen.",
+      "body_hr": "MIG/MAG zavarivanje spada u postupke zavarivanja u zaštiti plina, a koristi se za širok spektar materijala i debljina.\n\n## Glavne prednosti\n\n- **Brzina** — znatno brže od TIG-a, idealno za duge zavare\n- **Svestranost** — čelik, aluminij, nehrđajući materijal\n- **Manja osjetljivost** na nečistoće na materijalu\n\n## Kada biramo MIG/MAG?\n\nKod serijske proizvodnje, konstrukcija i debljih limova gdje produktivnost igra ključnu ulogu. Za tanke i precizne zavare češće biramo TIG.\n\nNaš tim sastoji se od iskusnih i stručnih zavarivača te konstruktora.",
+      "body_en": "MIG/MAG welding belongs to the gas-shielded welding processes and is used for a wide range of materials and thicknesses.\n\n## Main advantages\n\n- **Speed** — significantly faster than TIG, ideal for long welds\n- **Versatility** — steel, aluminium, stainless material\n- **Lower sensitivity** to contamination on the material\n\n## When do we choose MIG/MAG?\n\nFor series production, structural work and thicker sheets where productivity is key. For thin and precise welds we more often choose TIG.\n\nOur team consists of experienced and skilled welders and constructors.",
+      "body_de": "Das MIG/MAG-Schweißen gehört zu den Schutzgasschweißverfahren und wird für eine Vielzahl von Werkstoffen und Blechdicken eingesetzt.\n\n## Hauptvorteile\n\n- **Geschwindigkeit** — deutlich schneller als WIG, ideal für lange Nähte\n- **Vielseitigkeit** — Stahl, Aluminium, Edelstahl\n- **Geringere Empfindlichkeit** gegen Verunreinigungen\n\n## Wann wählen wir MIG/MAG?\n\nBei Serienfertigung, Konstruktionsarbeiten und dickeren Blechen, bei denen die Produktivität entscheidend ist. Für dünne und präzise Nähte wählen wir häufiger WIG.\n\nUnser Team besteht aus erfahrenen und fachkundigen Schweißern und Konstrukteuren."
+    },
+    {
+      "id": "sigurnost-uz-struju",
+      "date": "2026-07-05",
+      "category": "safety",
+      "title_hr": "Sigurnost pri radu s električnom instalacijom",
+      "title_en": "Safety when working with electrical installations",
+      "title_de": "Sicherheit bei Arbeiten an Elektroinstallationen",
+      "excerpt_hr": "Elektrika ne prašta greške. Evo nekoliko pravila koja svaki vlasnik kuće treba znati prije nego posegne za alatom.",
+      "excerpt_en": "Electricity doesn't forgive mistakes. Here are a few rules every homeowner should know before reaching for a tool.",
+      "excerpt_de": "Elektrik verzeiht keine Fehler. Hier sind einige Regeln, die jeder Hausbesitzer kennen sollte, bevor er zum Werkzeug greift.",
+      "body_hr": "Rad s električnim instalacijama zahtijeva znanje i oprez. Loše izvedene instalacije jedan su od najčešćih uzroka požara u kućanstvima.\n\n## Osnovna pravila\n\n- Uvijek isključi napon prije rada (i provjeri mjeračem!)\n- Ne preopterećuj utičnice s previše uređaja\n- Zemljospojni vodič nikada ne preskakuči\n- Stare instalacije (starije od 30 godina) redovito pregledavaj\n\n## Kada zvati stručnjaka?\n\nKada primijetiš često izbacivanje osigurača, treperenje svjetla ili zagrijavanje utičnica — to su znakovi koje ne treba ignorirati.\n\nNaš tim nudi preglede i certifikaciju instalacija sukladno važećim normama.",
+      "body_en": "Working with electrical installations requires knowledge and care. Poorly executed installations are one of the most common causes of household fires.\n\n## Basic rules\n\n- Always switch off the voltage before working (and verify with a meter!)\n- Don't overload sockets with too many devices\n- Never bypass the earth conductor\n- Have old installations (older than 30 years) inspected regularly\n\n## When to call a professional?\n\nIf you notice frequent tripping of breakers, flickering lights or sockets heating up — these are signs you shouldn't ignore.\n\nOur team offers inspections and certification of installations according to current standards.",
+      "body_de": "Arbeiten an Elektroinstallationen erfordern Wissen und Sorgfalt. Schlecht ausgeführte Installationen sind eine der häufigsten Ursachen für Wohnungsbrände.\n\n## Grundregeln\n\n- Spannung vor Arbeiten immer abschalten (und mit Messgerät prüfen!)\n- Steckdosen nicht mit zu vielen Geräten überlasten\n- Erdungsleiter niemals überbrücken\n- Alte Installationen (über 30 Jahre) regelmäßig prüfen lassen\n\n## Wann den Fachmann rufen?\n\nWenn Sie häufig auslösende Sicherungen, flackerndes Licht oder sich erwärmende Steckdosen bemerken — das sind Zeichen, die Sie nicht ignorieren sollten.\n\nUnser Team bietet Prüfungen und Zertifizierungen von Installationen nach geltenden Normen."
+    }
+  ]
+}
