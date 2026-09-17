@@ -34,18 +34,22 @@ const I18N = {
     "services.weld.title": "Zavarivanje",
     "services.weld.desc": "MIG/MAG, TIG i relno zavarivanje čelika, aluminija i nehrđajućeg materijala. Mobilna usluga na terenu.",
     "services.weld.more": "Saznajte više",
+    "services.weld.list": "<li>MIG/MAG — čelik, aluminij</li><li>TIG — precizni zavari, nehrđajući</li><li>Relno zavarivanje debljih presjeka</li><li>Mobilna usluga na terenu</li>",
 
     "services.elec.title": "Elektroinstalacije",
     "services.elec.desc": "Kompletno elektroinstalaterske radove: razvodne table, instalacije, javna rasvjeta i održavanje.",
     "services.elec.more": "Saznajte više",
+    "services.elec.list": "<li>Razvodne table i ormari</li><li>Unutarnje i vanjske instalacije</li><li>Javna i dekorativna rasvjeta</li><li>Pregledi i certifikacija</li>",
 
     "services.industrial.title": "Industrijski radovi",
     "services.industrial.desc": "Zavarivanje konstrukcija, cjevovoda i rezervoara za industrijske objekte i proizvodne hale.",
     "services.industrial.more": "Saznajte više",
+    "services.industrial.list": "<li>Nosive čelične konstrukcije i konstrukcijski radovi</li><li>Cjevovodi i tlakne posude</li><li>Rezervoari i silosi</li><li>Ogrrade i stepeništa</li>",
 
     "services.maintenance.title": "Održavanje i servisi",
     "services.maintenance.desc": "Redovito održavanje elektroinstalacija i zavarenih konstrukcija. Hitne intervencije 24/7.",
     "services.maintenance.more": "Saznajte više",
+    "services.maintenance.list": "<li>Redoviti pregledi instalacija</li><li>Servis zavarenih konstrukcija</li><li>Hitne intervencije 24/7</li><li>Sklapanje ugovora o održavanju</li>",
 
     "about.eyebrow": "Tko smo",
     "about.title": "Stručna firma s modernim pristupom i certificiranim timom",
@@ -132,7 +136,7 @@ const I18N = {
     "nav.blog": "News",
     "nav.contact": "Contact",
 
-    "brand.name": "JURAHURA",
+    "brand.name": "JM SOLUTIONS",
     "brand.tag": "WELDING • ELECTRICAL",
 
     "hero.title1": "Precision welding and",
@@ -155,18 +159,22 @@ const I18N = {
     "services.weld.title": "Welding",
     "services.weld.desc": "MIG/MAG, TIG and arc welding of steel, aluminium and stainless steel. Mobile on-site service.",
     "services.weld.more": "Learn more",
+    "services.weld.list": "<li>MIG/MAG — steel, aluminium</li><li>TIG — precise welds, stainless steel</li><li>Arc welding of thicker sections</li><li>Mobile on-site service</li>",
 
     "services.elec.title": "Electrical installations",
     "services.elec.desc": "Complete electrical work: distribution boards, wiring, public lighting and maintenance.",
     "services.elec.more": "Learn more",
+    "services.elec.list": "<li>Distribution boards and cabinets</li><li>Indoor and outdoor installations</li><li>Public and decorative lighting</li><li>Inspections and certification</li>",
 
     "services.industrial.title": "Industrial work",
     "services.industrial.desc": "Welding of structures, pipelines and tanks for industrial facilities and production halls.",
     "services.industrial.more": "Learn more",
+    "services.industrial.list": "<li>Load-bearing steel structures and structural work</li><li>Pipelines and pressure vessels</li><li>Tanks and silos</li><li>Fences and staircases</li>",
 
     "services.maintenance.title": "Maintenance & service",
     "services.maintenance.desc": "Regular maintenance of electrical installations and welded structures. 24/7 emergency response.",
     "services.maintenance.more": "Learn more",
+    "services.maintenance.list": "<li>Regular installation inspections</li><li>Welded structure service</li><li>24/7 emergency response</li><li>Maintenance contracts</li>",
 
     "about.eyebrow": "Who we are",
     "about.title": "A professional company with a modern approach and a certified team",
@@ -253,7 +261,7 @@ const I18N = {
     "nav.blog": "News",
     "nav.contact": "Kontakt",
 
-    "brand.name": "JURAHURA",
+    "brand.name": "JM SOLUTIONS",
     "brand.tag": "SCHWEISSEN • ELEKTRIK",
 
     "hero.title1": "Präzisionsschweißen und",
@@ -276,18 +284,22 @@ const I18N = {
     "services.weld.title": "Schweißen",
     "services.weld.desc": "MIG/MAG-, WIG- und Lichtbogenschweißen von Stahl, Aluminium und Edelstahl. Mobiler Service vor Ort.",
     "services.weld.more": "Mehr erfahren",
+    "services.weld.list": "<li>MIG/MAG — Stahl, Aluminium</li><li>WIG — präzise Nähte, Edelstahl</li><li>Lichtbogenschweißen dickerer Bereiche</li><li>Mobile Service vor Ort</li>",
 
     "services.elec.title": "Elektroinstallationen",
     "services.elec.desc": "Komplette Elektroarbeiten: Verteilertafeln, Verkabelung, öffentliche Beleuchtung und Wartung.",
     "services.elec.more": "Mehr erfahren",
+    "services.elec.list": "<li>Verteilertafeln und Schaltschränke</li><li>Indoor- und Outdoor-Installationen</li><li>Öffentliche und dekorative Beleuchtung</li><li>Prüfungen und Zertifizierungen</li>",
 
     "services.industrial.title": "Industriearbeiten",
     "services.industrial.desc": "Schweißen von Konstruktionen, Rohrleitungen und Tanks für Industrieanlagen und Produktionshallen.",
     "services.industrial.more": "Mehr erfahren",
+    "services.industrial.list": "<li>Tragende Stahlkonstruktionen und Konstruktionsarbeiten</li><li>Rohrleitungen und Druckbehälter</li><li>Tanks und Silos</li><li>Zäune und Treppen</li>",
 
     "services.maintenance.title": "Wartung & Service",
     "services.maintenance.desc": "Regelmäßige Wartung von Elektroinstallationen und Schweißkonstruktionen. 24/7-Notdienst.",
     "services.maintenance.more": "Mehr erfahren",
+    "services.maintenance.list": "<li>Regelmäßige Inspektionen von Installationen</li><li>Service für Schweißkonstruktionen</li><li>24/7-Notdienst</li><li>Wartungsverträge</li>",
 
     "about.eyebrow": "Wer wir sind",
     "about.title": "Ein professionelles Unternehmen mit modernem Ansatz und zertifiziertem Team",
